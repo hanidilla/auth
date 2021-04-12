@@ -15,27 +15,6 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                    <table class="table table-responsive">
-                        <tr>
-                            <td>Username</td>
-                            <td>:</td>
-                            <td>{{$user->username}}</td>
-                        </tr>
-                        <tr>
-                            <td>Name</td>
-                            <td>:</td>
-                            <td>{{$user->name}}</td>
-                        </tr><tr>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td>{{$user->email}}</td>
-                        </tr>
-                        <tr>
-                            <td>Created At</td>
-                            <td>:</td>
-                            <td>{{$user->created_at}}</td>
-                        </tr>
-                    </table>
                 </div>
             </div>
         </div>
